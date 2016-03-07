@@ -118,37 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="imgFlagUK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgFlagUK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgFlagFR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgFlagFR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgprthvee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgprthvee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1757527" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1757527.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prithvee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prithvee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prithbanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prithbanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bhoomi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bhoomi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imgFlagEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgFlagEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="earthmother" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\earthmother.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imgFlagUK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFlagUK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1757527" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1757527.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bhoomi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bhoomi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgprthvee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgprthvee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prithbanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prithbanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prithvee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prithvee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chrome_2016-03-06_19-46-28" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chrome_2016-03-06_19-46-28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imgFlagFR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgFlagFR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Prithu_-_Crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Prithu_-_Crop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earthmother" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earthmother.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="priththee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\priththee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="majestic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1522613.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mangal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mangal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mongol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mongol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bhfast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bhfast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bhoomifaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bhoomifaster.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bhslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bhslow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="priffast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\priffast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prifslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prifslow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prismatafast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prismatafast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prismataslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prismataslow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

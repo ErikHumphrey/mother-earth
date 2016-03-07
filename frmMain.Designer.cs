@@ -63,6 +63,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label27 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.tabCows = new System.Windows.Forms.TabPage();
             this.label25 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -74,7 +78,6 @@
             this.picHindi = new System.Windows.Forms.PictureBox();
             this.picFrench = new System.Windows.Forms.PictureBox();
             this.picEnglish = new System.Windows.Forms.PictureBox();
-            this.label26 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -82,6 +85,7 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.tabCows.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHindi)).BeginInit();
@@ -190,6 +194,7 @@
             this.button3.TabIndex = 14;
             this.button3.Text = "lent";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label8
             // 
@@ -209,6 +214,7 @@
             this.button4.TabIndex = 12;
             this.button4.Text = "dit-le";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label9
             // 
@@ -268,6 +274,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "lent";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label5
             // 
@@ -287,6 +294,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "dit-le";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -354,6 +362,7 @@
             this.button5.TabIndex = 37;
             this.button5.Text = "lent";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label22
             // 
@@ -373,6 +382,7 @@
             this.button6.TabIndex = 35;
             this.button6.Text = "dit-le";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label21
             // 
@@ -446,6 +456,9 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.label27);
+            this.tabPage3.Controls.Add(this.pictureBox5);
+            this.tabPage3.Controls.Add(this.comboBox1);
             this.tabPage3.Controls.Add(this.label26);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
@@ -453,6 +466,48 @@
             this.tabPage3.Size = new System.Drawing.Size(945, 380);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Symbolisme";
+            // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(146, 126);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(440, 202);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Dans cette pièce d\'art éblouissant, Prithvi tient tout sauf l\'évier de la cuisine" +
+    ". Il y a aussi des fleurs de lotus en vedette au premier plan.";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::mother_earth.Properties.Resources.mongol;
+            this.pictureBox5.Location = new System.Drawing.Point(619, 72);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(269, 302);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(39, 40);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(188, 26);
+            this.comboBox1.TabIndex = 1;
+            this.comboBox1.Text = "Choisissez une peinture";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(36, 13);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(878, 18);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "Bien qu\'il ait été destiné à être au centre de la présentation, je ne pouvais pas" +
+    " donner un sens des objets détenus par Prithvi dans l\'art.";
             // 
             // tabCows
             // 
@@ -580,17 +635,6 @@
             this.picEnglish.TabIndex = 3;
             this.picEnglish.TabStop = false;
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(36, 13);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(878, 18);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "Bien qu\'il ait été destiné à être au centre de la présentation, je ne pouvais pas" +
-    " donner un sens des objets détenus par Prithvi dans l\'art.";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -612,6 +656,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Microsoft Prithvi Simulator X";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -622,6 +667,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabCows.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHindi)).EndInit();
@@ -680,5 +726,8 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label27;
     }
 }
