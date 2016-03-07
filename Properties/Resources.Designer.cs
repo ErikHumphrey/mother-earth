@@ -83,6 +83,26 @@ namespace mother_earth.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chrome_2016_03_06_19_46_28 {
+            get {
+                object obj = ResourceManager.GetObject("chrome_2016-03-06_19-46-28", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap earthmother {
+            get {
+                object obj = ResourceManager.GetObject("earthmother", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgFlagEN {
             get {
                 object obj = ResourceManager.GetObject("imgFlagEN", resourceCulture);
@@ -126,6 +146,16 @@ namespace mother_earth.Properties {
         internal static System.Drawing.Bitmap prithbanner {
             get {
                 object obj = ResourceManager.GetObject("prithbanner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prithu___Crop {
+            get {
+                object obj = ResourceManager.GetObject("Prithu_-_Crop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -130,6 +130,9 @@
   <data name="1757527" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1757527.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="prithvee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prithvee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="prithbanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\prithbanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,7 +142,13 @@
   <data name="imgFlagEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgFlagEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="prithvee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prithvee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="earthmother" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earthmother.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrome_2016-03-06_19-46-28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrome_2016-03-06_19-46-28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prithu_-_Crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prithu_-_Crop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
