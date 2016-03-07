@@ -74,12 +74,14 @@
             this.picHindi = new System.Windows.Forms.PictureBox();
             this.picFrench = new System.Windows.Forms.PictureBox();
             this.picEnglish = new System.Windows.Forms.PictureBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.tabCows.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHindi)).BeginInit();
@@ -443,13 +445,14 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.label26);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(945, 380);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Symbolisme";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabCows
             // 
@@ -519,26 +522,31 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Yellow;
             this.label6.Location = new System.Drawing.Point(19, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 37);
+            this.label6.Size = new System.Drawing.Size(112, 37);
             this.label6.TabIndex = 6;
             this.label6.Text = "Prithvi";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(28, 52);
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Yellow;
+            this.label7.Location = new System.Drawing.Point(24, 49);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 18);
+            this.label7.Size = new System.Drawing.Size(106, 24);
             this.label7.TabIndex = 7;
             this.label7.Text = "« la Vaste »";
             // 
             // picHindi
             // 
             this.picHindi.BackColor = System.Drawing.Color.Transparent;
+            this.picHindi.Cursor = System.Windows.Forms.Cursors.No;
             this.picHindi.Enabled = false;
             this.picHindi.Image = global::mother_earth.Properties.Resources.imgFlagEN;
             this.picHindi.Location = new System.Drawing.Point(898, 39);
@@ -551,6 +559,7 @@
             // picFrench
             // 
             this.picFrench.BackColor = System.Drawing.Color.Transparent;
+            this.picFrench.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picFrench.Image = global::mother_earth.Properties.Resources.imgFlagFR;
             this.picFrench.Location = new System.Drawing.Point(848, 39);
             this.picFrench.Name = "picFrench";
@@ -562,6 +571,7 @@
             // picEnglish
             // 
             this.picEnglish.BackColor = System.Drawing.Color.Transparent;
+            this.picEnglish.Cursor = System.Windows.Forms.Cursors.No;
             this.picEnglish.Image = global::mother_earth.Properties.Resources.imgFlagUK;
             this.picEnglish.Location = new System.Drawing.Point(796, 39);
             this.picEnglish.Name = "picEnglish";
@@ -569,6 +579,17 @@
             this.picEnglish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picEnglish.TabIndex = 3;
             this.picEnglish.TabStop = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(36, 13);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(878, 18);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "Bien qu\'il ait été destiné à être au centre de la présentation, je ne pouvais pas" +
+    " donner un sens des objets détenus par Prithvi dans l\'art.";
             // 
             // frmMain
             // 
@@ -582,8 +603,15 @@
             this.Controls.Add(this.picFrench);
             this.Controls.Add(this.picEnglish);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(969, 528);
+            this.MinimumSize = new System.Drawing.Size(953, 489);
             this.Name = "frmMain";
-            this.Text = "frmMain";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Microsoft Prithvi Simulator X";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -592,6 +620,8 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.tabCows.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHindi)).EndInit();
@@ -649,5 +679,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label26;
     }
 }

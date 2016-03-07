@@ -32,7 +32,7 @@ namespace mother_earth
             step[1] = "Assassinating Gandhi...";
             step[2] = "Installing viruses...";
             step[3] = "Downloading more RAM...";
-            step[4] = "Ça c'est non...";
+            step[4] = "Ça, c'est NON...";
             step[5] = "Manually breathing...";
             step[6] = "Have you really been far even as decided to use go want to look more like?";
             step[7] = "Stealing credit card info...";
