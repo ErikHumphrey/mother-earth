@@ -134,7 +134,7 @@
             // label17
             // 
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(294, 173);
+            this.label17.Location = new System.Drawing.Point(292, 209);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(338, 89);
             this.label17.TabIndex = 21;
@@ -249,7 +249,7 @@
             // lblEtymologyParagraph
             // 
             this.lblEtymologyParagraph.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEtymologyParagraph.Location = new System.Drawing.Point(294, 36);
+            this.lblEtymologyParagraph.Location = new System.Drawing.Point(292, 90);
             this.lblEtymologyParagraph.Name = "lblEtymologyParagraph";
             this.lblEtymologyParagraph.Size = new System.Drawing.Size(380, 193);
             this.lblEtymologyParagraph.TabIndex = 7;
@@ -341,7 +341,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(945, 380);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Résumé";
             // 
             // button5
             // 
@@ -448,7 +448,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(945, 380);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.Text = "Symbolisme";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabCows
@@ -513,7 +513,7 @@
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(945, 380);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "References";
+            this.tabPage5.Text = "Références";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -541,7 +541,7 @@
             this.picHindi.BackColor = System.Drawing.Color.Transparent;
             this.picHindi.Enabled = false;
             this.picHindi.Image = global::mother_earth.Properties.Resources.imgFlagEN;
-            this.picHindi.Location = new System.Drawing.Point(898, 27);
+            this.picHindi.Location = new System.Drawing.Point(898, 39);
             this.picHindi.Name = "picHindi";
             this.picHindi.Size = new System.Drawing.Size(43, 26);
             this.picHindi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -552,7 +552,7 @@
             // 
             this.picFrench.BackColor = System.Drawing.Color.Transparent;
             this.picFrench.Image = global::mother_earth.Properties.Resources.imgFlagFR;
-            this.picFrench.Location = new System.Drawing.Point(848, 27);
+            this.picFrench.Location = new System.Drawing.Point(848, 39);
             this.picFrench.Name = "picFrench";
             this.picFrench.Size = new System.Drawing.Size(44, 26);
             this.picFrench.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -563,7 +563,7 @@
             // 
             this.picEnglish.BackColor = System.Drawing.Color.Transparent;
             this.picEnglish.Image = global::mother_earth.Properties.Resources.imgFlagUK;
-            this.picEnglish.Location = new System.Drawing.Point(796, 27);
+            this.picEnglish.Location = new System.Drawing.Point(796, 39);
             this.picEnglish.Name = "picEnglish";
             this.picEnglish.Size = new System.Drawing.Size(46, 26);
             this.picEnglish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
